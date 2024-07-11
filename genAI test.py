@@ -9,6 +9,8 @@ from langchain_openai import ChatOpenAI
 import streamlit as st
 
 
+
+
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 gpt3_model = ChatOpenAI(model_name = "gpt-3.5-turbo-0125")
