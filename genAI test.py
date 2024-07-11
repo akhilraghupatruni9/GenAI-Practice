@@ -6,7 +6,7 @@ Created on Thu Jul 11 22:36:01 2024
 """
 import os
 from langchain_openai import ChatOpenAI
-import streamlist as st
+import streamlit as st
 
 
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
